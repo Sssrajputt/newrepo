@@ -11,6 +11,7 @@ int b = sc.nextInt();
         System.out.println("\nChoose an operation:");
         System.out.println("1. Addition (+)");
         System.out.println("2. Subtraction (-)");
+        System.out.println("3. Multiplication (*)");
        
           System.out.print("Enter your choice (1-5): ");
         int choice = scanner.nextInt();
@@ -23,8 +24,12 @@ int b = sc.nextInt();
                 result = num1 + num2;
                 System.out.println("Result: " + result);
                 break;
-                   case 2:
+                case 2:
                 result = num1 - num2;
+                System.out.println("Result: " + result);
+                break;
+                case 3:
+                result = num1 * num2;
                 System.out.println("Result: " + result);
                 break;
                 default:
